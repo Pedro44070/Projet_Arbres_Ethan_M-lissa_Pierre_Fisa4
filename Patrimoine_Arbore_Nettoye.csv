@@ -1443,7 +1443,6 @@
 15.458229168471714;59.525600011231546;1453;2017/02/02 15:27:53+00;Quartier Remicourt;Jardin d'horticulture;14.0;2.0;2.11;EN PLACE;adulte;semi libre;gazon;Isolé;Non;RAS;;80.0;20.0;0.0;;VILLE;CARBET;2018/01/15 10:59:36+00;Feuillu;Non
 15.45819431743195;59.52561897443757;1454;2017/02/02 15:27:53+00;Quartier Remicourt;Jardin d'horticulture;14.0;3.0;1.02;EN PLACE;adulte;semi libre;gazon;Isolé;Non;RAS;;50.0;10.0;0.0;;VILLE;ABIGLA;2018/01/15 10:59:36+00;Conifère;Non
 15.458261064054192;59.525629767205025;1455;2017/02/02 15:27:53+00;Quartier Remicourt;Jardin d'horticulture;7.0;1.0;0.86;EN PLACE;adulte;semi libre;gazon;Isolé;Non;RAS;;50.0;10.0;0.0;;VILLE;CRYJAP;2018/01/15 10:59:36+00;Conifère;Non
-15.45841827551712;59.52553650691955;1456;2017/02/02 15:27:53+00;Quartier Remicourt;Jardin d'horticulture;3.0;0.0;1.247;EN PLACE;adulte;étêté;gazon;Isolé;Non;RAS;;20.0;5.0;0.0;;VILLE;CEDATLpen;2018/01/15 10:59:36+00;Conifère;Non
 15.458762820751085;59.52550268157964;1457;2017/02/02 15:27:53+00;Quartier Remicourt;Jardin d'horticulture;5.0;0.0;0.5;EN PLACE;adulte;semi libre;gazon;Isolé;Non;RAS;;50.0;10.0;0.0;;VILLE;TAXBACfas;2018/01/15 10:59:36+00;Conifère;Non
 15.45962692279929;59.51962013225712;1458;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Boulevard Léon Blum;0.0;0.0;0.0;ABATTU;;;;Alignement;;RAS;;0.0;;0.0;;VILLE;RAS;2018/01/15 10:59:36+00;;Non
 15.459575315484532;59.51960983013931;1459;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Boulevard Léon Blum;0.0;0.0;0.0;ABATTU;;;;Alignement;;RAS;;0.0;;0.0;;VILLE;RAS;2018/01/15 10:59:36+00;;Non
@@ -1522,8 +1521,6 @@
 15.459321231497997;59.52379576629114;1532;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Ecole Metz;6.0;2.0;0.32;EN PLACE;jeune;semi libre;fosse arbre;Groupe;;RAS;;15.0;5.0;0.0;;VILLE;LIQSTY;2018/01/15 10:59:36+00;Feuillu;Non
 15.459327026529895;59.52378730063838;1533;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Ecole Metz;6.0;2.0;0.47;EN PLACE;jeune;semi libre;fosse arbre;Groupe;;RAS;;15.0;5.0;0.0;;VILLE;LIQSTY;2018/01/15 10:59:36+00;Feuillu;Non
 15.459405957002334;59.52380031052471;1534;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Ecole Metz;6.0;2.0;0.41;EN PLACE;jeune;semi libre;fosse arbre;Groupe;;RAS;;15.0;5.0;0.0;;VILLE;LIQSTY;2018/01/15 10:59:36+00;Feuillu;Non
-15.457773047089573;59.52323828341539;1535;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Rue Adrien Nordet;5.0;0.0;;SUPPRIMÉ;jeune;cépée;Bande de terre;Isolé;Non;RAS;;15.0;5.0;0.0;2017/10/31 23:00:00+00;VILLE;PARPER;2018/01/15 10:59:36+00;Feuillu;Non
-15.457747419951145;59.52325648069367;1536;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Rue Adrien Nordet;4.0;0.0;;SUPPRIMÉ;jeune;cépée;Bande de terre;Isolé;Non;RAS;;15.0;5.0;0.0;2017/10/31 23:00:00+00;VILLE;PARPER;2018/01/15 10:59:36+00;Feuillu;Non
 15.4582574088093;59.52440465897584;1537;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Rue des Jacobins;7.0;2.0;0.9;Essouché;adulte;semi libre;gazon;Isolé;Non;RAS;;50.0;10.0;0.0;2016/02/29 23:00:00+00;VILLE;PRUCERpis;2018/01/15 10:59:36+00;Feuillu;Non
 15.45624980799827;59.52318334024153;1538;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Place Gracchus Babeuf;8.0;2.0;1.05;EN PLACE;adulte;semi libre;Revetement non permeable;Alignement;;RAS;;50.0;10.0;0.0;;VILLE;TILCOR;2018/01/15 10:59:36+00;Feuillu;Non
 15.456216814674516;59.52320467446546;1539;2017/02/02 15:27:53+00;Quartier du Centre-Ville;Place Gracchus Babeuf;9.0;3.0;1.2;EN PLACE;adulte;semi libre;Revetement non permeable;Alignement;;RAS;;50.0;10.0;0.0;;VILLE;TILCOR;2018/01/15 10:59:36+00;Feuillu;Non
@@ -2254,16 +2251,6 @@
 15.437507734304505;59.51711056020472;2264;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Gabriel Voisin;8.0;3.0;0.9;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;50.0;10.0;0.0;;VILLE;ULMRES;2018/01/15 10:59:36+00;Feuillu;Non
 15.438494024299345;59.516717166327545;2265;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Hélène Boucher;5.0;0.0;0.6;EN PLACE;jeune;cépée;gazon;Isolé;Non;Cépée de 5 brins : 30, 60, 15,15 et 15 cm de circonférence;;20.0;5.0;0.0;;VILLE;LABANA;2018/01/15 10:59:36+00;Feuillu;Non
 15.438453529144653;59.51676403450042;2266;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Hélène Boucher;5.0;3.0;0.35;EN PLACE;jeune;semi libre;gazon;Isolé;Non;RAS;;15.0;5.0;0.0;;VILLE;PAUTOM;2018/01/15 10:59:36+00;Feuillu;Non
-15.438639505561294;59.51614457169718;2267;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
-15.438623546091955;59.51616588622179;2268;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
-15.438606998226106;59.51618746458947;2269;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
-15.438591594813929;59.51620828236256;2270;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
-15.438574541196573;59.51622978642236;2271;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
-15.438631808795938;59.51624140065053;2272;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
-15.438648581240608;59.516219530207024;2273;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
-15.438664773373604;59.516198867838206;2274;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
-15.438680716673266;59.51617762761531;2275;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
-15.438697650814685;59.51615554568046;2276;2017/02/02 15:27:57+00;Quartier Saint-Martin - Oëstres;Rue Maryse Bastié;4.0;0.0;1.247;EN PLACE;adulte;semi libre;fosse arbre;Alignement;;RAS;;20.0;5.0;0.0;;VILLE;CHALAWgol;2018/01/15 10:59:36+00;Conifère;Non
 15.443121267887411;59.53121393043484;2277;2017/02/02 15:27:57+00;Quartier du Vermandois;Rue de Lille;13.0;3.0;1.7;EN PLACE;adulte;semi libre;gazon;Groupe;Non;RAS;;50.0;10.0;0.0;;VILLE;PINNIGnig;2018/01/15 10:59:36+00;Conifère;Non
 15.443059471880701;59.53119442057765;2278;2017/02/02 15:27:57+00;Quartier du Vermandois;Rue de Lille;10.0;2.0;1.4;EN PLACE;adulte;semi libre;gazon;Groupe;Non;RAS;;50.0;10.0;0.0;;VILLE;PINNIGnig;2018/01/15 10:59:36+00;Conifère;Non
 15.443020411335516;59.53117775444709;2279;2017/02/02 15:27:57+00;Quartier du Vermandois;Rue de Lille;13.0;3.0;1.55;EN PLACE;adulte;semi libre;gazon;Groupe;Non;RAS;;50.0;10.0;0.0;;VILLE;PINNIGnig;2018/01/15 10:59:36+00;Conifère;Non
@@ -11170,9 +11157,7 @@
 15.466928318935834;59.5265912932472;11750;2018/01/03 07:45:26+00;Quartier Remicourt;Avenue de la Paix;3.5;2.2;0.2;EN PLACE;jeune;libre;fosse arbre;Alignement;;RAS;2017/11/01 00:00:00+00;13.3;0.0;0.0;;VILLE;PRUSERsun;2018/01/15 10:59:36+00;Feuillu;Non
 15.466828250206445;59.52663810578566;11751;2018/01/03 07:45:26+00;Quartier Remicourt;Avenue de la Paix;3.5;2.2;0.2;EN PLACE;jeune;libre;fosse arbre;Alignement;;RAS;2017/11/01 00:00:00+00;13.3;0.0;0.0;;VILLE;PRUSERsun;2018/01/15 10:59:36+00;Feuillu;Non
 15.464231946558806;59.51868293605395;11752;;Quartier du faubourg d'Isle;Rue du Maréchal Foch;4.0;2.2;0.25;EN PLACE;jeune;libre;fosse arbre;Alignement;Non;RAS;;1.0;0.0;0.0;;VILLE;FRAPEN;;Feuillu;Non
-;;11753;;nan;;;;;;;;;;;;;;;;;;;;;
 15.46454211236853;59.51886302051222;11754;;Quartier du faubourg d'Isle;Rue du Maréchal Foch;4.0;2.2;0.25;EN PLACE;jeune;libre;fosse arbre;Alignement;Non;RAS;;1.0;0.0;0.0;;VILLE;FRAPEN;;Feuillu;Non
-;;11755;;nan;;;;;;;;;;;;;;;;;;;;;
 15.468737580715283;59.52726840088415;11756;;Quartier Remicourt;Rue Jacky Tabar;4.0;2.2;0.25;REMPLACÉ;jeune;libre;gazon;Alignement;Non;RAS;2015/10/31 23:00:00+00;1.0;0.0;0.0;2019/12/30 23:00:00+00;VILLE;FRAPEN;;Feuillu;Non
 15.468973427104922;59.527107466271744;11757;;Quartier Remicourt;Rue Jacky Tabar;4.0;2.2;0.25;REMPLACÉ;jeune;libre;gazon;Alignement;Non;RAS;2015/10/31 23:00:00+00;1.0;0.0;0.0;2019/12/30 23:00:00+00;VILLE;FRAPEN;;Feuillu;Non
 15.469029934729553;59.52706890646762;11758;;Quartier Remicourt;Rue Jacky Tabar;4.0;2.2;0.25;REMPLACÉ;jeune;libre;gazon;Alignement;Non;RAS;2015/10/31 23:00:00+00;1.0;0.0;0.0;2019/12/30 23:00:00+00;VILLE;FRAPEN;;Feuillu;Non
@@ -11215,20 +11200,11 @@
 15.464152659455197;59.52964642402376;11796;2017/02/02 15:27:50+00;Quartier de l'Europe;Avenue Robert Schuman;3.5;2.0;0.25;EN PLACE;jeune;libre;Bande de terre;Alignement;Non;RAS;2017/11/01 00:00:00+00;1.0;0.0;1.0;;VILLE;ULMRESreb;2018/01/15 10:59:36+00;Feuillu;Non
 15.464077089580236;59.52961590903926;11797;2017/02/02 15:27:50+00;Quartier de l'Europe;Avenue Robert Schuman;3.5;2.0;0.25;EN PLACE;jeune;libre;Bande de terre;Alignement;Non;RAS;2017/11/01 00:00:00+00;1.0;0.0;1.0;;VILLE;ULMRESreb;2018/01/15 10:59:36+00;Feuillu;Non
 15.466912760115113;59.530072014254806;11798;;Quartier de l'Europe;square des marronniers;3.5;2.2;0.25;EN PLACE;jeune;libre;gazon;Isolé;Non;;2017/10/31 23:00:00+00;1.0;;;;VILLE;AESARNaut;;Feuillu;Non
-15.469216938818882;59.505149981505454;11799;;nan;;;;;;;;;;;;;;;;;;;;;
-15.469216071046317;59.50514975950168;11800;;nan;;;;;;;;;;;;;;;;;;;;;
-15.46733402327097;59.53178024841557;11801;;nan;;;;;;;;;;;;;;;;;;;;;
-15.467334891941851;59.53178025023758;11802;;nan;;;;;;;;;;;;;;;;;;;;;
-15.467299206367189;59.53167780993684;11803;;nan;;;;;;;;;;;;;;;;;;;;;
-15.441770713739809;59.52913230880774;11804;;Quartier du Vermandois;;;;;;;;;;;;;;;;;;;;;
 15.44174399335168;59.52909792403255;11805;;Quartier du Vermandois;Rue Salvador Allende;3.5;2.2;0.25;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2017/11/30 23:00:00+00;1.0;0.0;;;VILLE;LIQSTYwor;;Feuillu;Non
 15.475721389161226;59.51750342863625;11806;;Quartier du faubourg d'Isle;Avenue des Fusillés de Fontaine Notre Dame;2.0;0.0;0.1;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2017/09/30 22:00:00+00;1.0;0.0;;;VILLE;FAGSYLdawpur;;Feuillu;Non
 15.475756200675116;59.51749910410949;11807;;Quartier du faubourg d'Isle;Avenue des Fusillés de Fontaine Notre Dame;2.0;0.0;0.1;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2017/09/30 22:00:00+00;1.0;0.0;;;VILLE;FAGSYLdawpur;;Feuillu;Non
 15.463139357119767;59.53145497606393;11808;;Quartier de l'Europe;Rue d'Alembert;3.5;2.2;0.25;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2017/10/31 23:00:00+00;1.0;0.0;;;VILLE;CATBIG;;Feuillu;Non
 15.475537457310175;59.51741123224845;11809;;Quartier du faubourg d'Isle;Avenue des Fusillés de Fontaine Notre Dame;2.5;0.5;0.2;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2017/10/31 23:00:00+00;1.0;0.0;;;VILLE;KOEPANfas;;Feuillu;Non
-15.475452666228819;59.51749045915552;11810;;Quartier du faubourg d'Isle;;;;;;;;;;;;;;;;;;;;;
-15.475502643999652;59.51749188365234;11811;;Quartier du faubourg d'Isle;;;;;;;;;;;;;;;;;;;;;
-15.475501919059216;59.51747429070239;11812;;Quartier du faubourg d'Isle;;;;;;;;;;;;;;;;;;;;;
 15.475520683967186;59.51744285650232;11813;;Quartier du faubourg d'Isle;Avenue des Fusillés de Fontaine Notre Dame;2.5;0.5;0.2;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2017/10/31 23:00:00+00;1.0;0.0;;;VILLE;KOEPANfas;;Feuillu;Non
 15.47560066906177;59.51745235817262;11814;;Quartier du faubourg d'Isle;Avenue des Fusillés de Fontaine Notre Dame;2.5;0.5;0.2;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;;1.0;0.0;;;VILLE;KOEPANfas;;Feuillu;Non
 15.475611736306071;59.51742136688676;11815;;Quartier du faubourg d'Isle;Avenue des Fusillés de Fontaine Notre Dame;2.5;0.5;0.2;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;;1.0;0.0;;;VILLE;KOEPANfas;;Feuillu;Non
@@ -11250,7 +11226,6 @@
 15.467812246802366;59.529435359508405;11857;;Quartier de l'Europe;Rue Laplace;3.5;2.2;0.25;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2018/10/31 23:00:00+00;1.0;0.0;;;VILLE;GLETRIsun;;Feuillu;Non
 15.467746437122965;59.52942466453198;11858;;Quartier de l'Europe;Rue Laplace;3.5;2.2;0.25;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;;1.0;0.0;;;VILLE;GLETRIsun;;Feuillu;Non
 15.467759487847413;59.52946472535074;11860;;Quartier de l'Europe;Rue Laplace;3.5;2.2;0.25;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2018/10/31 23:00:00+00;1.0;0.0;;;VILLE;GLETRIsun;;Feuillu;Non
-15.465264557282955;59.526118833576824;11861;;Quartier Remicourt;;;;;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;;13.3;;;;;;;;
 15.465265762822066;59.526119001684584;11862;;Quartier Remicourt;Avenue de la République;3.5;2.2;0.25;EN PLACE;jeune;libre;fosse arbre;Alignement;Non;Aucun;2018/10/31 23:00:00+00;1.0;0.0;;;VILLE;ACECAMros;;Feuillu;Non
 15.466177260882981;59.53000879395826;11863;;Quartier de l'Europe;Square des Marronniers;4.0;2.2;0.25;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2018/10/31 23:00:00+00;1.0;0.0;;;VILLE;AESARNaut;;Feuillu;Non
 15.466261326125583;59.52994531343842;11864;;Quartier de l'Europe;Square des Marronniers;4.0;2.2;0.25;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;2018/10/31 23:00:00+00;1.0;0.0;;;VILLE;AESARNaut;;Feuillu;Non
@@ -11300,7 +11275,6 @@
 15.465823575291001;59.53192394289624;11909;2018/03/28 22:00:00+00;OMISSY;Terrain aventure Neuville;14.0;3.0;0.71;EN PLACE;jeune;libre;gazon;Groupe;Non;Aucun;;20.0;3.0;;;;FRAEXC;;;
 15.465778033401042;59.53191440521946;11910;2018/03/28 22:00:00+00;OMISSY;Terrain aventure Neuville;14.0;3.0;0.6;EN PLACE;jeune;libre;gazon;Groupe;Non;Aucun;;20.0;3.0;;;;FRAEXC;;Feuillu;Non
 15.465802698443799;59.531926976058166;11911;2018/03/28 22:00:00+00;OMISSY;Terrain aventure Neuville;14.0;3.0;0.68;EN PLACE;jeune;libre;gazon;Groupe;Non;Aucun;;20.0;3.0;;;;FRAEXC;;Feuillu;Non
-15.465812154110479;59.531939955929346;11912;2018/03/28 22:00:00+00;OMISSY;Terrain aventure Neuville;14.0;3.0;;EN PLACE;jeune;libre;gazon;Groupe;Non;Aucun;;13.3;;;;;;;;
 15.46582597738607;59.531950088479;11913;2018/03/28 22:00:00+00;OMISSY;Terrain aventure Neuville;14.0;3.0;0.82;EN PLACE;jeune;libre;gazon;Groupe;Non;Aucun;;20.0;3.0;;;;FRAEXC;;Feuillu;Non
 15.465756648107389;59.531926883592064;11914;2018/03/28 22:00:00+00;OMISSY;Terrain aventure Neuville;14.0;3.0;0.61;EN PLACE;jeune;libre;gazon;Groupe;Non;Aucun;;20.0;3.0;;;;FRAEXC;;Feuillu;Non
 15.465770908862522;59.531936577956614;11915;2018/03/28 22:00:00+00;OMISSY;Terrain aventure Neuville;14.0;3.0;0.47;EN PLACE;jeune;libre;gazon;Groupe;Non;Aucun;;20.0;3.0;;;;FRAEXC;;Feuillu;Non
@@ -11315,7 +11289,7 @@
 15.427524947893241;59.5434367627144;11926;2018/03/27 22:00:00+00;Gricourt;Gricourt;5.0;0.0;0.25;EN PLACE;jeune;libre;Bande de terre;Groupe;Non;Aucun;;5.0;2.0;;;;TILCOR;;Feuillu;Non
 15.427487595045411;59.54316167504369;11927;2018/03/27 22:00:00+00;Gricourt;Gricourt;28.0;5.0;2.25;EN PLACE;adulte;libre;Bande de terre;Groupe;Non;Aucun;;50.0;;;;;FRAEXC;;Feuillu;Non
 15.42756379374107;59.54312887324892;11928;2018/03/27 22:00:00+00;Gricourt;Gricourt;28.0;5.0;2.15;EN PLACE;adulte;libre;Bande de terre;Groupe;Non;Aucun;;50.0;10.0;;;;FRAEXC;;Feuillu;Non
-15.427713722561991;59.54290346995538;11929;2018/03/27 22:00:00+00;Griourt;Griourt;16.0;5.0;2.07;EN PLACE;adulte;libre;Bande de terre;Isolé;Non;Aucun;;50.0;10.0;;;;JUGREG;;Feuillu;Non
+15.427713722561991;59.54290346995538;11929;2018/03/27 22:00:00+00;Gricourt;Gricourt;16.0;5.0;2.07;EN PLACE;adulte;libre;Bande de terre;Isolé;Non;Aucun;;50.0;10.0;;;;JUGREG;;Feuillu;Non
 15.427791739447787;59.54292686308548;11930;2018/03/27 22:00:00+00;Gricourt;Gricourt;16.0;5.0;1.88;EN PLACE;adulte;libre;Bande de terre;Isolé;Non;Aucun;;50.0;10.0;;;;JUGREG;;Feuillu;Non
 15.427501840529189;59.542898737505055;11931;2018/03/27 22:00:00+00;Gricourt;Gricourt;16.0;5.0;1.6;EN PLACE;adulte;libre;Bande de terre;Groupe;Non;Aucun;;50.0;;;;;ACEPSE;;Feuillu;Non
 15.427528055165808;59.54287331759189;11932;2018/03/27 22:00:00+00;Gricourt;Gricourt;16.0;5.0;1.22;EN PLACE;jeune;libre;Bande de terre;Groupe;Non;Aucun;;50.0;10.0;;;;ACEPSE;;Feuillu;Non
@@ -11333,11 +11307,8 @@
 15.427574215096683;59.54292168257454;11944;2018/03/27 22:00:00+00;Gricourt;Gricourt;24.0;5.0;1.68;EN PLACE;adulte;libre;gazon;Groupe;Non;Aucun;;50.0;10.0;;;;FRAEXC;;Feuillu;Non
 15.427302339077627;59.542997190821985;11945;2018/03/27 22:00:00+00;Gricourt;Gricourt;28.0;5.0;2.17;EN PLACE;adulte;libre;Bande de terre;Groupe;Non;Aucun;;50.0;10.0;;;;FRAEXC;;Feuillu;Oui
 15.427392917106044;59.543025652367135;11946;2018/03/27 22:00:00+00;Gricourt;Gricourt;28.0;5.0;2.29;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;;50.0;10.0;;;;FRAEXC;;Feuillu;Non
-15.427483396319776;59.543069698160274;11947;2018/03/27 22:00:00+00;nan;;28.0;5.0;1.39;EN PLACE;jeune;libre;Bande de terre;Groupe;Non;Aucun;;50.0;;;;;FRAEXC;;Feuillu;Non
 15.427560124123136;59.54309089412471;11948;2018/03/27 22:00:00+00;Gricourt;Gricourt;28.0;5.0;1.8;EN PLACE;adulte;libre;Bande de terre;Groupe;Non;Aucun;;50.0;10.0;;;;FRAEXC;;Feuillu;Non
 15.427507829597184;59.54312044204823;11949;2018/03/27 22:00:00+00;Gricourt;Gricourt;28.0;5.0;1.27;EN PLACE;adulte;libre;Bande de terre;Groupe;Non;Aucun;;50.0;10.0;;;;FRAEXC;;Feuillu;Non
-15.427441665981563;59.543145797115734;11950;2018/03/27 22:00:00+00;nan;;28.0;5.0;1.72;EN PLACE;adulte;libre;Bande de terre;Groupe;Non;Aucun;;41.2;;;;;ACEPSE;;Feuillu;Non
-15.42739769075346;59.543095241324345;11951;2018/03/27 22:00:00+00;nan;;28.0;5.0;1.16;EN PLACE;adulte;cépée;Bande de terre;Groupe;Non;Aucun;;50.0;10.0;;;;ACEPSE;;Feuillu;Non
 15.42731285745129;59.543050985193936;11952;2018/03/27 22:00:00+00;Gricourt;Gricourt;28.0;5.0;1.38;EN PLACE;adulte;libre;gazon;Groupe;Non;Aucun;;50.0;10.0;;;;ACEPSE;;Feuillu;Non
 15.427100409479857;59.543109988194296;11953;2018/03/27 22:00:00+00;Gricourt;Gricourt;25.0;2.0;1.65;EN PLACE;adulte;libre;Bande de terre;Groupe;Non;Aucun;;50.0;10.0;;;;PLAACE;;Feuillu;Non
 15.427068393523133;59.54309127934845;11954;2018/03/27 22:00:00+00;Gricourt;Gricourt;25.0;2.0;2.04;EN PLACE;adulte;libre;Bande de terre;Groupe;Non;Aucun;;50.0;10.0;;;;PLAACE;;Feuillu;Non
@@ -11357,7 +11328,6 @@
 15.444491168152975;59.524665223206824;11968;2019/03/27 23:00:00+00;Quartier du Vermandois;Talus rue de Vermand;12.0;2.0;0.49;EN PLACE;adulte;libre;gazon;Groupe;Non;28/Erable sycomore;;25.0;5.0;;;;CARBET;;Feuillu;Non
 15.443675081056702;59.52491255546514;11969;2018/03/27 22:00:00+00;Quartier du Vermandois;Passerelle Vermand;12.0;2.0;0.58;EN PLACE;adulte;libre;gazon;Groupe;Non;22/Bouleau verruqueux;;25.0;5.0;;;;CARBET;;Feuillu;Non
 15.462731933409176;59.515987420638496;11970;2018/03/27 22:00:00+00;Quartier du faubourg d'Isle;Giratoire Camille Guerin;18.0;6.0;0.75;EN PLACE;adulte;libre;gazon;Groupe;Non;211/Frene commun;;25.0;5.0;;;;SALCAP;;Feuillu;Non
-15.462040826223436;59.526172097726096;11972;;nan;;;;;EN PLACE;jeune;libre;gazon;Isolé;Non;Aucun;;13.3;;;;;;;;
 15.479405628974733;59.517511578704436;11973;2018/03/27 22:00:00+00;Quartier de Neuville;Terrain aventure Neuville;16.0;4.0;0.9;EN PLACE;adulte;libre;gazon;Groupe;Non;19;;25.0;5.0;;;;ROBPSE;;Feuillu;Non
 15.47851692296921;59.517535178574825;11974;2019/03/27 23:00:00+00;Quartier de Neuville;Terrain aventure Neuville;20.0;4.0;0.9;EN PLACE;adulte;libre;gazon;Groupe;Non;21;;25.0;;;;;ROBPSE;;Feuillu;Non
 15.478109763363312;59.51741292651958;11975;2018/03/27 22:00:00+00;Quartier de Neuville;Terrain aventure Neuville;12.0;7.0;0.57;EN PLACE;adulte;libre;gazon;Groupe;Non;14;;20.0;5.0;;;;ACEPLA;;Feuillu;Non
@@ -11403,8 +11373,6 @@
 15.46628221914246;59.52990317736142;12028;;Quartier de l'Europe;square des marronniers ;3.0;2.0;0.15;EN PLACE;jeune;libre;gazon;;Non;RAS;2020/02/01 14:24:51+00;13.3;1.0;0.0;;VILLE;LIRTUL;;;Non
 15.466463783034424;59.5299508339439;12029;;Quartier de l'Europe;square des marronniers ;3.0;2.0;0.15;EN PLACE;jeune;libre;gazon;;Non;RAS;2020/02/01 14:26:14+00;13.3;1.0;0.0;;VILLE;LIRTUL;;;Non
 15.46663913148294;59.52996723283262;12030;;Quartier de l'Europe;square des marronniers ;3.0;2.0;0.15;EN PLACE;jeune;libre;gazon;;Non;RAS;2020/02/01 14:27:45+00;13.3;1.0;0.0;;VILLE;ACERUB;;;Non
-15.437661882512316;59.52015269765682;12033;2019/12/01 23:00:00+00;PARC AUTOROUTES;PARC AUTOROUTES;;;;ABATTU;;;;;;;;;;;;;;;;
-15.466346592415722;59.530240024443216;12034;;Quartier de l'Europe;square des marronniers ;3.0;;0.15;EN PLACE;jeune;libre;gazon;Isolé;Non;RAS;2020/12/14 13:01:28+00;13.3;1.0;0.0;;VILLE;CEDATL;2020/12/14 13:02:24+00;;Non
 15.466083929518222;59.53020889595333;12035;;Quartier de l'Europe;square des marronniers ;4.0;2.0;0.15;EN PLACE;jeune;libre;gazon;Isolé;Non;RAS;2020/12/14 13:03:44+00;5.0;1.0;0.0;;VILLE;AEShom;2020/12/14 13:04:28+00;;Non
 15.466334777773106;59.52998599132943;12036;;Quartier de l'Europe;square des marronniers ;3.0;2.0;0.15;EN PLACE;jeune;libre;gazon;;Non;RAS;2020/12/14 13:08:18+00;13.3;1.0;0.0;;VILLE;AEShom;2020/12/14 13:08:47+00;;Non
 15.466806693334572;59.53018294033909;12037;;Quartier de l'Europe;square des marronniers ;3.0;2.0;0.15;EN PLACE;jeune;libre;gazon;;Non;RAS;2020/12/14 13:10:22+00;13.3;1.0;0.0;;VILLE;MAGGRA;2020/12/14 13:12:58+00;;Non
