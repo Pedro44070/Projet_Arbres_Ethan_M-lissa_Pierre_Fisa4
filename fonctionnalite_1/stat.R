@@ -41,11 +41,6 @@ print(etat_sante)
 # PARTIE B : ANALYSE PAR GROUPE (QUARTIERS)
 # ==========================================================
 
-# ==========================================================
-# PARTIE B : ANALYSE PAR GROUPE (QUARTIERS) - CORRIGÉE
-# ==========================================================
-
-cat("\n--- STATISTIQUES PAR QUARTIER ---\n")
 
 # Calcul de la moyenne d'âge et du nombre d'arbres par quartier
 stats_quartier <- df_stats %>%

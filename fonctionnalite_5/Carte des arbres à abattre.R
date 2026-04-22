@@ -1,10 +1,4 @@
-# ══════════════════════════════════════════════════════════════════════════════
-#  CARTE DES ARBRES À ABATTRE – Saint-Quentin
-#  Trinôme 4 : Pierre SICOT · Ethan HEURTIN · Mélissa BOUANCHAUD
-#  ISEN Nantes – FISA4 – 2026
-# ══════════════════════════════════════════════════════════════════════════════
-
-# ── 1. Packages ───────────────────────────────────────────────────────────────
+# librairies
 if (!require(dplyr))          install.packages("dplyr")
 if (!require(leaflet))        install.packages("leaflet")
 if (!require(leaflet.extras)) install.packages("leaflet.extras")
@@ -15,12 +9,10 @@ library(leaflet)
 library(leaflet.extras)
 library(htmlwidgets)
 
-# ══════════════════════════════════════════════════════════════════════════════
-# 2. IMPORT ET FILTRAGE DES ARBRES À ABATTRE
-# ══════════════════════════════════════════════════════════════════════════════
+#importation des données 
 
 df <- read.csv(
-  file             = "C:/Users/PC/Downloads/Patrimoine_Arbore_Nettoye.csv",     # → Patrimoine_Arbore_Nettoye.csv
+  file             = "C:/Users/bouan/Downloads/Patrimoine_Arbore_Nettoye (4).csv",     
   sep              = ";",
   header           = TRUE,
   encoding         = "UTF-8",
@@ -35,17 +27,7 @@ df_abattre <- df %>%
     lon != 0, lat != 0
   )
 
-cat("✅ Arbres à abattre localisés :", nrow(df_abattre), "\n")
-cat("   ABATTU    :", sum(df_abattre$fk_arb_etat == "ABATTU"), "\n")
-cat("   SUPPRIMÉ  :", sum(df_abattre$fk_arb_etat == "SUPPRIMÉ"), "\n")
-cat("   Essouché  :", sum(df_abattre$fk_arb_etat == "Essouché"), "\n\n")
-
-# ══════════════════════════════════════════════════════════════════════════════
-# 3. CRÉATION DE L'ICÔNE "CROIX" POUR LES ARBRES À ABATTRE
-# ══════════════════════════════════════════════════════════════════════════════
-# On crée une petite icône SVG en forme de croix (✕) directement en HTML
-# pour avoir un rendu net à n'importe quel niveau de zoom
-# ══════════════════════════════════════════════════════════════════════════════
+#importer les outils pour la carte  
 
 icone_croix <- makeIcon(
   iconUrl = "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M18.3 5.71L12 12l6.3 6.29-1.41 1.42L10.59 13.4 4.3 19.71 2.89 18.29 9.17 12 2.89 5.71 4.3 4.29l6.29 6.3 6.3-6.3z' fill='%23b80000' stroke='white' stroke-width='1'/></svg>",
@@ -55,19 +37,14 @@ icone_croix <- makeIcon(
   iconAnchorY  = 7
 )
 
-# ══════════════════════════════════════════════════════════════════════════════
-# 4. COULEURS PAR TYPE D'ÉTAT
-# ══════════════════════════════════════════════════════════════════════════════
 
+#choix des couleurs pour les différents types d'arbres 
 palette_etat <- colorFactor(
   palette = c("#c0392b", "#e67e22", "#8e44ad"),
   domain  = c("ABATTU", "Essouché", "SUPPRIMÉ")
 )
 
-# ══════════════════════════════════════════════════════════════════════════════
-# 5. CARTE COMPLÈTE : HEATMAP + CROIX + LÉGENDE
-# ══════════════════════════════════════════════════════════════════════════════
-
+#dégradé pour fond de carte 
 gradient_chaleur <- c(
   "0.2" = "#2c7bb6",
   "0.4" = "#abd9e9",
@@ -78,13 +55,14 @@ gradient_chaleur <- c(
 
 carte_abattage <- leaflet(df_abattre) %>%
   addProviderTiles(providers$CartoDB.Positron) %>%
+  # Vue centrée sur la ville
   setView(
     lng  = mean(df_abattre$lon),
     lat  = mean(df_abattre$lat),
     zoom = 13
   ) %>%
   
-  # ── COUCHE 1 : Heatmap de fond (densité) ──────────────────────────────────
+# Couche 1 : carte en dégradé de couleur
   addHeatmap(
     lng       = ~lon,
     lat       = ~lat,
@@ -96,14 +74,14 @@ carte_abattage <- leaflet(df_abattre) %>%
     group     = "Zones de concentration"
   ) %>%
   
-  # ── COUCHE 2 : Croix précises à chaque position ───────────────────────────
+  #Couche 2 : Croix précises à chaque position 
   addMarkers(
     lng   = ~lon,
     lat   = ~lat,
     icon  = icone_croix,
     label = ~paste0("✕ ", fk_arb_etat, " – ", nom),
     popup = ~paste0(
-      "<b>❌ Arbre à abattre</b><br>",
+      "<b> Arbre à abattre</b><br>",
       "<b>État :</b> ",      fk_arb_etat,  "<br>",
       "<b>Essence :</b> ",   nom,          "<br>",
       "<b>Quartier :</b> ",  clc_quartier, "<br>",
@@ -112,7 +90,7 @@ carte_abattage <- leaflet(df_abattre) %>%
     group = "Positions exactes"
   ) %>%
   
-  # ── LÉGENDE DE LA HEATMAP (dégradé de densité) ────────────────────────────
+  #légende de la heatmap
   addLegend(
     position = "bottomright",
     colors   = c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"),
@@ -121,7 +99,7 @@ carte_abattage <- leaflet(df_abattre) %>%
     opacity  = 0.9
   ) %>%
   
-  # ── LÉGENDE DES CROIX ─────────────────────────────────────────────────────
+  # légende des croix
   addControl(
     html = paste0(
       "<div style='background:white; padding:8px 12px; border-radius:4px;",
@@ -133,7 +111,7 @@ carte_abattage <- leaflet(df_abattre) %>%
     position = "topright"
   ) %>%
   
-  # ── CONTRÔLE POUR AFFICHER/MASQUER LES COUCHES ────────────────────────────
+  # Controle pour choisir les couches affichées 
   addLayersControl(
     overlayGroups = c("Zones de concentration", "Positions exactes"),
     options       = layersControlOptions(collapsed = FALSE),
@@ -145,12 +123,5 @@ carte_abattage <- leaflet(df_abattre) %>%
 # Affichage
 carte_abattage
 
-# Export HTML
-htmlwidgets::saveWidget(
-  carte_abattage,
-  "carte_arbres_abattre.html",
-  selfcontained = TRUE
-)
 
-cat("📊 Carte sauvegardée : carte_arbres_abattre.html\n")
-cat("Dossier :", getwd(), "\n")
+
