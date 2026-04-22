@@ -24,7 +24,6 @@ df_clean <- df %>%
     clc_quartier = trimws(clc_quartier)
   )
 
-#Identification du top 10 des quartiers et des essences
 top_quartiers <- df_clean %>%
   count(clc_quartier, sort = TRUE) %>%
   slice_head(n = 10) %>%
@@ -35,7 +34,6 @@ top_essences <- df_clean %>%
   slice_head(n = 10) %>%
   pull(nom)
 
-#Création du tableau croisé (Quartiers x Essences)
 df_croise <- df_clean %>%
   filter(clc_quartier %in% top_quartiers, nom %in% top_essences) %>%
   group_by(clc_quartier, nom) %>%
@@ -46,12 +44,18 @@ df_croise <- df_clean %>%
   ungroup()
 
 
-# ---------------------------------------------------------
-# GRAPHIQUE 1 : Barres empilées (Proportions)
-# ---------------------------------------------------------
+# GRAPHIQUE 1 : Barres empilées (avec pourcentages)
 
 graphique_barres <- ggplot(df_croise, aes(x = reorder(clc_quartier, -nb_arbres, sum), y = nb_arbres, fill = nom)) +
   geom_bar(stat = "identity", position = "fill", color = "white", linewidth = 0.2) +
+  # Affichage des pourcentages s'ils sont supérieurs à 3% pour la lisibilité
+  geom_text(
+    aes(label = ifelse(pourcentage > 3, paste0(pourcentage, "%"), ""), y = nb_arbres), 
+    position = position_fill(vjust = 0.5),
+    size = 3.5, 
+    color = "grey15", 
+    fontface = "bold"
+  ) +
   scale_y_continuous(labels = percent_format()) +
   scale_fill_brewer(palette = "Set3") +
   coord_flip() +
@@ -62,13 +66,13 @@ graphique_barres <- ggplot(df_croise, aes(x = reorder(clc_quartier, -nb_arbres, 
     y = "Proportion d'arbres",
     fill = "Essence"
   ) +
-  theme_minimal()
+  theme_minimal(base_size = 11)
 
 print(graphique_barres)
-ggsave("graphique_barres.png", plot = graphique_barres, width = 12, height = 6)
+ggsave("graphique_barres_pct.png", plot = graphique_barres, width = 12, height = 6)
 
 
-# GRAPHIQUE 2 : Carte des essences par quartier
+# GRAPHIQUE 2 : Carte des essences par quartier (Heatmap)
 
 graphique_heatmap <- ggplot(df_croise, aes(x = nom, y = reorder(clc_quartier, nb_arbres, sum), fill = nb_arbres)) +
   geom_tile(color = "white", linewidth = 0.4) +
@@ -79,7 +83,7 @@ graphique_heatmap <- ggplot(df_croise, aes(x = nom, y = reorder(clc_quartier, nb
     x = "Essence",
     y = ""
   ) +
-  theme_minimal() +
+  theme_minimal(base_size = 11) +
   theme(
     axis.text.x = element_text(angle = 45, hjust = 1),
     panel.grid = element_blank()
@@ -87,6 +91,7 @@ graphique_heatmap <- ggplot(df_croise, aes(x = nom, y = reorder(clc_quartier, nb
 
 print(graphique_heatmap)
 ggsave("graphique_heatmap.png", plot = graphique_heatmap, width = 11, height = 7)
+
 
 
 # SYNTHÈSE : Essence dominante par quartier
