@@ -103,3 +103,16 @@ essence_dominante <- df_croise %>%
   arrange(desc(nb_arbres))
 
 print(essence_dominante)
+
+# Le test de Chi-2 se fait sur les effectifs BRUTS (pas les pourcentages)
+tableau_contingence <- table(df_croise$clc_quartier, df_croise$nom)
+
+# 2. RÉALISATION DU TEST
+test_chi2 <- chisq.test(tableau_contingence)
+
+# 3. AFFICHAGE DES RÉSULTATS
+
+print(test_chi2)
+
+# Interprétation automatique
+p_val <- test_chi2$p.value
