@@ -104,15 +104,24 @@ essence_dominante <- df_croise %>%
 
 print(essence_dominante)
 
-# Le test de Chi-2 se fait sur les effectifs BRUTS (pas les pourcentages)
-tableau_contingence <- table(df_croise$clc_quartier, df_croise$nom)
+
+#test du ch2
+# 1. PRÉPARATION DU TABLEAU DE CONTINGENCE
+library(tidyr)
+
+# On pivote les données pour avoir les essences en colonnes
+matrice_temp <- df_croise %>%
+  select(clc_quartier, nom, nb_arbres) %>%
+  pivot_wider(names_from = nom, values_from = nb_arbres, values_fill = 0)
+
+# On transforme en vraie matrice R (nécessaire pour le Chi-2)
+# On transforme la première colonne en noms de lignes
+matrice_chi2 <- as.data.frame(matrice_temp)
+rownames(matrice_chi2) <- matrice_chi2$clc_quartier
+matrice_chi2$clc_quartier <- NULL # On supprime la colonne textuelle devenue inutile
 
 # 2. RÉALISATION DU TEST
-test_chi2 <- chisq.test(tableau_contingence)
+test_chi2 <- chisq.test(matrice_chi2, simulate.p.value = TRUE, B = 2000)
 
-# 3. AFFICHAGE DES RÉSULTATS
-
-print(test_chi2)
-
-# Interprétation automatique
-p_val <- test_chi2$p.value
+# Affichage du résultat
+print(test_chi)
